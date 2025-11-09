@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Milou van Wijk
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  beginnen met rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  surface plane
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Starbucks: (https://www.starbucks.nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  homepagina starbucks  
+  <img src="readme-images/homepaginastarbucks.jpeg" width="375px" alt="homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  koffiepagina starbucks  
+  <img src="readme-images/kofiiepaginastarbucks.jpeg" width="375px" alt="koffiepagina">
  
 </details>
 
@@ -229,6 +229,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
+  1. bron 1
+  2. bron 2
+  3. ...
+
+</details>
   1. bron 1
   2. bron 2
   3. ...
