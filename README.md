@@ -57,29 +57,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   
-  Costa Club Pagina
+  Costa Club Pagina <br>
+    Headings: <br>
+      -Geen h2 en h5 <br>
+      -H1 is een slogan, verteld niet waar de hele pagina over gaat <br>
+      -Footer is alleen maar h6, terwijl er ook geen h5 is <br>
+      -sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?" <br>
+    Links <br>
+      -Sommige links heten "See here" of "Ask away". Het is niet duidelijk waar die links naartoe gaan. <br>
   
-  Headings: 
-  
-  1.Geen h2 en h5 <br>
-  2.H1 is een slogan, verteld niet waar de hele pagina over gaat <br>
-  3.Footer is alleen maar h6, terwijl er ook geen h5 is <br>
-  4.sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?" <br>
-    
-  Links:
-  
-  1.Sommige links heten "See here" of "Ask away". Het is niet duidelijk waar die links naartoe gaan.
-  
-  Detailpagina aardbei matcha
-    
-  Headings:
-  
-  1.2x een h1
-  2.geen h3 - h5
-  3.betreffende titels zijn beter dan de andere pagina
-    
-  Links
-  1.veel dubbele links. Sommige komen vaker voor: "Sustainability". De namen kunnen aangepast worden om de Sustainebility van het betreffende product beter naar voren te laten komen.
+  Detailpagina aardbei matcha <br>
+    Headings: <br>
+      -2x een h1 <br>
+      -geen h3 - h5 <br>
+      -betreffende titels zijn beter dan de andere pagina <br>
+    Links <br>
+      -veel dubbele links. Sommige komen vaker voor: "Sustainability". De namen kunnen aangepast <br>
+      worden om de Sustainebility van het betreffende product beter naar voren te laten komen.
 
 </details>
 
