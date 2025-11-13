@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Milou van Wijk
 
   #### Je startniveau:
-  beginnen met rood
+  Rood
 
   #### Je focus:
-  surface plane
+  responsiveness
  
 </details>
 
@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   homepagina starbucks  
-  <img src="readme-images/homepaginastarbucks.jpeg" width="375px" alt="homepagina">
+  <img src="readme-images/CostaClubPagina.png" width="375px" alt="Costa club pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   koffiepagina starbucks  
-  <img src="readme-images/kofiiepaginastarbucks.jpeg" width="375px" alt="koffiepagina">
+  <img src="readme-images/MatchaLattePagina.png" width="375px" alt="detailpagina aardbei matcha">
  
 </details>
 
@@ -56,7 +56,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Costa Club Pagina
+    Headings: 
+      -Geen h2 en h5
+      -H1 is een slogan, verteld niet waar de hele pagina over gaat
+      -Footer is alleen maar h6, terwijl er ook geen h5 is
+      -sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?"
+    Links
+      -Sommige links heten "See here" of "Ask away". Het is niet duidelijk waar die links naartoe gaan.
+  
+  Detailpagina aardbei matcha
+    Headings:
+      -2x een h1
+      -geen h3 - h5
+      -betreffende titels zijn beter dan de andere pagina
+    Links
+      -veel dubbele links. Sommige komen vaker voor: "Sustainability". De namen kunnen aangepast 
+      worden om de Sustainebility van het betreffende product beter naar voren te laten komen.
 
 </details>
 
