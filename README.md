@@ -234,8 +234,3 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. ...
 
 </details>
-  1. bron 1
-  2. bron 2
-  3. ...
-
-</details>

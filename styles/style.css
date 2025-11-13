@@ -7,9 +7,6 @@
 
 
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -22,10 +19,25 @@
 
 
 
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+@font-face {
+  font-family: "CostaFont";
+  src: url("..//fonts/CostaText-Bold-ed9040c301b748d0775f1738e94b9a12.woff2");
+  font-weight: 700;
+
+}
+
+@font-face {
+  font-family: "CostaFont";
+  src: url("..//fonts/CostaText-Regular-d819baeadd703ec19dd54fce7aba0a91.woff2");
+  font-weight: 400;
+
+}
+
+html {
+	font-family: 'CostaFont', sans-serif;
+}
 
