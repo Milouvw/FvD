@@ -58,10 +58,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Costa Club Pagina
     Headings: 
-      -Geen h2 en h5
-      -H1 is een slogan, verteld niet waar de hele pagina over gaat
-      -Footer is alleen maar h6, terwijl er ook geen h5 is
-      -sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?"
+      1.Geen h2 en h5
+      2.H1 is een slogan, verteld niet waar de hele pagina over gaat
+      3.Footer is alleen maar h6, terwijl er ook geen h5 is
+      4.sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?"
     Links
       -Sommige links heten "See here" of "Ask away". Het is niet duidelijk waar die links naartoe gaan.
   
