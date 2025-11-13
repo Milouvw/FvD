@@ -56,23 +56,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+  
   Costa Club Pagina
+  
   Headings: 
-  Geen h2 en h5
-  H1 is een slogan, verteld niet waar de hele pagina over gaat
-  Footer is alleen maar h6, terwijl er ook geen h5 is
-  sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?"
-    Links
-      -Sommige links heten "See here" of "Ask away". Het is niet duidelijk waar die links naartoe gaan.
+  
+  1.Geen h2 en h5
+  2.H1 is een slogan, verteld niet waar de hele pagina over gaat
+  3.Footer is alleen maar h6, terwijl er ook geen h5 is
+  4.sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?"
+    
+  Links:
+  
+  1.Sommige links heten "See here" of "Ask away". Het is niet duidelijk waar die links naartoe gaan.
   
   Detailpagina aardbei matcha
-    Headings:
-      -2x een h1
-      -geen h3 - h5
-      -betreffende titels zijn beter dan de andere pagina
-    Links
-      -veel dubbele links. Sommige komen vaker voor: "Sustainability". De namen kunnen aangepast 
-      worden om de Sustainebility van het betreffende product beter naar voren te laten komen.
+    
+  Headings:
+  
+  1.2x een h1
+  2.geen h3 - h5
+  3.betreffende titels zijn beter dan de andere pagina
+    
+  Links
+  1.veel dubbele links. Sommige komen vaker voor: "Sustainability". De namen kunnen aangepast worden om de Sustainebility van het betreffende product beter naar voren te laten komen.
 
 </details>
 
