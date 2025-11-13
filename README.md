@@ -61,10 +61,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Headings: 
   
-  1.Geen h2 en h5
-  2.H1 is een slogan, verteld niet waar de hele pagina over gaat
-  3.Footer is alleen maar h6, terwijl er ook geen h5 is
-  4.sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?"
+  1.Geen h2 en h5 <br>
+  2.H1 is een slogan, verteld niet waar de hele pagina over gaat <br>
+  3.Footer is alleen maar h6, terwijl er ook geen h5 is <br>
+  4.sommige koppen zijn niet duidelijk genoeg over wat voor info daar onder te vinden valt: "want to know more?" <br>
     
   Links:
   
