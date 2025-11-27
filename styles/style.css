@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "CostaFont";
+  src: url("..//fonts/CostaText-Bold.woff2");
+  font-weight: 700;
+
+}
+
+@font-face {
+  font-family: "CostaFont";
+  src: url("..//fonts/CostaText-Regular.woff2");
+  font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -7,37 +29,292 @@
 
 
 
+
+
+
+
+
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--donkerrood: rgb(107, 24, 49);
+    --cream: rgb(255, 255, 255);
+    --light-bg: #f7f7f7;
+    --text: #261313;
+    --accent: #c99a6b;
+    --radius-lg: 18px;
+    }
+
+
+
+
+
+
+
+
+
+/******************/
+/* GENERAL DINGEN */
+/******************/
+
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 
 
 
-/****************/
-/* JOUW STYLING */
-/****************/
 
-@font-face {
-  font-family: "CostaFont";
-  src: url("..//fonts/CostaText-Bold-ed9040c301b748d0775f1738e94b9a12.woff2");
-  font-weight: 700;
 
-}
 
-@font-face {
-  font-family: "CostaFont";
-  src: url("..//fonts/CostaText-Regular-d819baeadd703ec19dd54fce7aba0a91.woff2");
-  font-weight: 400;
 
-}
+
+
+
+/************/
+/* WRAPPERS */
+/***********/
+
 
 html {
+	@media (prefers-reduced-motion:no-preference) {
+    scroll-behavior:smooth; 
+	}
 	font-family: 'CostaFont', sans-serif;
+	min-width: 286px;
+	
 }
 
+body {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+/**********/
+/* HEADER */
+/**********/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background: #ffffff;
+	position:sticky;
+  	top:0;	
+	background-color: var(--cream);
+
+}
+
+nav {
+	order:-1;
+}
+
+nav button {
+	position: relative;
+	z-index:1;
+}
+
+nav ul { 
+	position:fixed;
+	inset:0;
+	translate: -100% 0;
+	transition:1s;
+	background-color: var(--cream);
+  
+}
+
+nav.is-open ul {
+  translate: 0 0;
+}
+
+
+
+nav.is-open button img {
+  content:url("https://assets.codepen.io/274456/ui-icon-cross.svg");
+  
+}
+
+header a {
+	text-decoration: none;
+	color: var(--donkerrood);
+	font-size: 1.4em;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-left: 0.7em;
+	padding-top: 1em;
+}
+
+nav ul li:nth-of-type(1) {
+	padding-top: 5em;
+}
+
+.burgermenu {
+	max-width: 1em;
+	max-height: 1em;
+}
+
+.burgermenu-knop {
+    width: 2em;
+    height: 2em;
+    border: 0;
+}
+
+.logo {
+	max-width: 10em;
+	max-height: 10em;
+}
+
+
+@media (min-width:76em) {
+  nav {
+    order: 0;
+  }
+  
+  nav button {
+    display:none;
+    
+  }
+  
+  nav ul {
+    position: static;
+    translate: 0 0;
+    padding: 0;
+    background: none;
+	display: flex;
+	
+    
+  }
+  
+  nav ul li {
+    flex-shrink: 0;
+	
+	padding: 1em;
+	justify-content: space-between;
+    
+  }
+
+  nav ul li:nth-of-type(1) {
+	padding: 1em;
+}
+  
+  nav a {
+    border:none;
+    flex-direction: column;
+    
+  }
+  
+  header > a:last-of-type {
+    flex-direction: column;
+    
+  }
+}
+
+
+@media (min-width:90em) {
+  header > a:last-of-type,
+  nav a {
+	font-size: 1em;
+    flex-direction: row;
+	
+
+  }
+
+  header a {
+	font-size: 1.6em;
+  }
+
+
+  
+
+}
+
+
+
+
+/****************/
+/* HEADINGS */
+/****************/
+
+h2 {
+	color: var(--donkerrood);
+	font-weight: normal;
+	font-size: 3em;
+}
+
+
+
+
+
+
+
+
+/****************/
+/* COOKIES KNOP */
+/****************/
+
+main button {
+
+  position:fixed;
+  left: 1em;
+  bottom: 1em;
+  z-index:10;
+  color: red;
+  background-color: aqua;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********/
+/* FOOTER */
+/**********/
+footer {
+    margin-top: 1.5rem;
+    padding: 1.5rem 1rem 2rem;
+    background: var(--donkerrood);
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}

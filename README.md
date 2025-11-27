@@ -75,6 +75,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
       -veel dubbele links. Sommige komen vaker voor: "Sustainability". De namen kunnen aangepast <br>
       worden om de Sustainebility van het betreffende product beter naar voren te laten komen.
 
+  Emulate visual deficiencies <br>
+  -Bij blurred vision is het lastig om de kleinere tekst te lezen <br>
+  -Bij Reduced contrast is de site nog goed te lezen en te gebruiken
+  -Bij Protanopia vond ik het interessant, aangezien de site veel rood bevat. Tot mijn verbazing is de site gewoon goed te lezen, alleen is er heel veel grijs/zwart met een klein beetje geel. <br>
+  -Bij Deuteranopia is er net wat meer geeltinten. Toch is de site ook goed te bezoeken. <br>
+  -Bij Tritanopia is de gehele site wat feller rood, maar nog niet storend zodat het vervelend is te lezen. <br>
+  -Bij Achromatopsia is de site ook goed te bezoeken. In het algemeen zijn er veel verschillende tinten gebruikt en je ziet veel verschillende grijs tinten hierdoor.
+
+
 </details>
 
 
@@ -85,13 +94,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/helepaginaBreakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dynamischdeelBreakdown.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
