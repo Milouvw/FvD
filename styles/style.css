@@ -1,16 +1,20 @@
 @font-face {
-  font-family: "CostaFont";
-  src: url("..//fonts/CostaText-Bold.woff2");
-  font-weight: 700;
+	font-family: "CostaFont";
+	src: url("..//fonts/CostaText-Bold.woff2");
+	font-weight: 700;
 
 }
 
 @font-face {
-  font-family: "CostaFont";
-  src: url("..//fonts/CostaText-Regular.woff2");
-  font-weight: 400;
+	font-family: "CostaFont";
+	src: url("..//fonts/CostaText-Regular.woff2");
+	font-weight: 400;
 
 }
+
+
+
+
 
 
 
@@ -23,9 +27,15 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
+
+
+
+
 
 
 
@@ -38,14 +48,41 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
+
 :root {
+	color-scheme: light dark;
+	--text: rgb(107, 24, 49);
+	--background: white;
 	--donkerrood: rgb(107, 24, 49);
-    --cream: rgb(255, 255, 255);
-    --light-bg: #f7f7f7;
-    --text: #261313;
-    --accent: #c99a6b;
-    --radius-lg: 18px;
-    }
+	--cream: rgb(255, 255, 255);
+	--light-bg: #f7f7f7;
+	--radius-lg: 18px;
+	--hover-color: maroon;
+	--checked: red;
+}
+
+html:has([value="light"]:checked) {
+	color-scheme: light;
+	--background: rgb(255, 233, 234);
+	--donkerrood: rgb(107, 24, 49);
+	--cream: rgb(255, 255, 255);
+	--light-bg: #f7f7f7;
+	--radius-lg: 18px;
+	--text: rgb(107, 24, 49);
+	--hover-color: maroon;
+}
+
+html:has([value="dark"]:checked) {
+	color-scheme: dark;
+	--background: rgb(107, 50, 54);
+	--donkerrood: rgb(107, 24, 49);
+	--cream: rgb(66, 0, 30);
+	--light-bg: rgb(33, 0, 1);
+	--radius-lg: 18px;
+	--text: white;
+	--hover-color: maroon;
+}
 
 
 
@@ -55,20 +92,28 @@
 
 
 
-/******************/
-/* GENERAL DINGEN */
-/******************/
+
+
+/*************************/
+/* ONZICHTBARE ELEMENTEN */
+/*************************/
 
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
+
+
+
+
+
+
 
 
 
@@ -86,17 +131,49 @@
 
 
 html {
-	@media (prefers-reduced-motion:no-preference) {
-    scroll-behavior:smooth; 
-	}
-	font-family: 'CostaFont', sans-serif;
-	min-width: 286px;
-	
+  font-family: 'CostaFont', sans-serif;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 
 body {
 	margin: 0;
+	background-color: var(--background);
 }
+
+
+h2 {
+	font-weight: normal;
+	font-size: 3em;
+}
+
+
+p {
+	line-height: 1.6em;
+	font-size: 1.3em;
+}
+
+
+p, h2, h1, a, li a {
+	color: var(--text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,50 +187,55 @@ body {
 /**********/
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-    background: #ffffff;
-	position:sticky;
-  	top:0;	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em;
+	background: #ffffff;
+	position: sticky;
+	top: 0;
 	background-color: var(--cream);
+	z-index: 5;
 
 }
 
 nav {
-	order:-1;
+	order: -1;
 }
 
 nav button {
 	position: relative;
-	z-index:1;
+	z-index: 1;
 }
 
-nav ul { 
-	position:fixed;
-	inset:0;
-	translate: -100% 0;
-	transition:1s;
+nav ul {
+	position: fixed;
+	inset: 0;
+	translate: -150% 0;
+	transition: 1s;
 	background-color: var(--cream);
-  
+
 }
 
 nav.is-open ul {
-  translate: 0 0;
+	translate: 0 0;
 }
 
 
 
 nav.is-open button img {
-  content:url("https://assets.codepen.io/274456/ui-icon-cross.svg");
-  
+	content: url("https://assets.codepen.io/274456/ui-icon-cross.svg");
+
 }
 
 header a {
 	text-decoration: none;
-	color: var(--donkerrood);
+	color: var(--text);
 	font-size: 1.4em;
+}
+
+header a[aria-current="page"] {
+	font-weight: bold;
 }
 
 nav ul li {
@@ -166,98 +248,190 @@ nav ul li:nth-of-type(1) {
 	padding-top: 5em;
 }
 
+li a:hover {
+	color: var(--hover-color);
+}
+
 .burgermenu {
 	max-width: 1em;
 	max-height: 1em;
 }
 
 .burgermenu-knop {
-    width: 2em;
-    height: 2em;
-    border: 0;
+	width: 2em;
+	height: 2em;
+	border: 0;
 }
 
 .logo {
+	min-width: 3em;
 	max-width: 10em;
 	max-height: 10em;
 }
 
-
-@media (min-width:76em) {
-  nav {
-    order: 0;
-  }
-  
-  nav button {
-    display:none;
-    
-  }
-  
-  nav ul {
-    position: static;
-    translate: 0 0;
-    padding: 0;
-    background: none;
+header div {
 	display: flex;
-	
-    
-  }
-  
-  nav ul li {
-    flex-shrink: 0;
-	
-	padding: 1em;
 	justify-content: space-between;
-    
-  }
-
-  nav ul li:nth-of-type(1) {
-	padding: 1em;
+	width: 80px;
 }
-  
-  nav a {
-    border:none;
-    flex-direction: column;
-    
-  }
-  
-  header > a:last-of-type {
-    flex-direction: column;
-    
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************/
+/* HAMBURGER MENU */
+/******************/
+
+.ham-menu {
+	height: 40px;
+	width: 40px;
+	appearance: inherit;
+	background-color: var(--cream);
+	border: none;
+}
+
+.ham-menu span {
+	height: 4px;
+	width: 100%;
+	background-color: var(--donkerrood);
+	border-radius: 25px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	transition: 0.5s ease;
+}
+
+.ham-menu span:nth-child(1) {
+	top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+	top: 75%;
+}
+
+.ham-menu.active span:nth-child(1) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+	opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:72em) {
+	nav {
+		order: 0;
+	}
+
+	nav button {
+		display: none;
+
+	}
+
+	nav ul {
+		position: static;
+		translate: 0 0;
+		padding: 0;
+		background: none;
+		display: flex;
+
+
+	}
+
+	nav ul li {
+		flex-shrink: 0;
+		font-size: 0.8em;
+		padding: 1em;
+		justify-content: space-between;
+
+	}
+
+	nav ul li:nth-of-type(1) {
+		padding: 1em;
+	}
+
+	nav a {
+		border: none;
+		flex-direction: column;
+
+	}
+
+	header>a:last-of-type {
+		flex-direction: column;
+
+	}
+}
+
+@media (max-width:24em) {
+	.logo {
+		width: 5em;
+	}
+
+
+}
+
+@media (min-width:79em) {
+	nav ul li {
+		font-size: 0.9em;
+	}
 }
 
 
 @media (min-width:90em) {
-  header > a:last-of-type,
-  nav a {
-	font-size: 1em;
-    flex-direction: row;
-	
 
-  }
-
-  header a {
-	font-size: 1.6em;
-  }
+	header>a:last-of-type,
+	nav a {
+		font-size: 1.2em;
+		flex-direction: row;
 
 
-  
+	}
+
+	header a {
+		font-size: 1.6em;
+	}
+
+
+
 
 }
 
-
-
-
-/****************/
-/* HEADINGS */
-/****************/
-
-h2 {
-	color: var(--donkerrood);
-	font-weight: normal;
-	font-size: 3em;
-}
 
 
 
@@ -270,15 +444,15 @@ h2 {
 /* COOKIES KNOP */
 /****************/
 
-main button {
+.cookiesKnop {
 
-  position:fixed;
-  left: 1em;
-  bottom: 1em;
-  z-index:10;
-  color: red;
-  background-color: aqua;
-  
+	position: fixed;
+	left: 1em;
+	bottom: 1em;
+	z-index: 10;
+	width: 5em;
+	height: 5em;
+
 }
 
 
@@ -307,14 +481,14 @@ main button {
 /* FOOTER */
 /**********/
 footer {
-    margin-top: 1.5rem;
-    padding: 1.5rem 1rem 2rem;
-    background: var(--donkerrood);
-    color: #fff;
-    font-size: 0.8rem;
+	margin-top: 1.5rem;
+	padding: 1.5rem 1rem 2rem;
+	background: var(--donkerrood);
+	color: var(--text);
+	font-size: 0.8rem;
 }
 
-footer a {
-    color: #fff;
-    text-decoration: underline;
+footer ul li a {
+	color: var(--text);
+	text-decoration: underline;
 }

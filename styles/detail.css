@@ -1,0 +1,135 @@
+/* ************** */
+/* main layout  */
+/* **************/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* linker kolom */
+main>section {
+    padding: 2rem;
+    background: var(--background);
+}
+
+/* rechter kolom (en onder) */
+main>aside {
+    background: var(--cream);
+    display: grid;
+    place-items: center;
+    position: relative;
+    padding: 2em;
+    min-height: 45vh;
+}
+
+@media (min-width: 50em) {
+    main {
+        grid-template-columns: minmax(320px, 520px) 1fr;
+    }
+
+    main>aside {
+        min-height: auto;
+    }
+}
+
+/* teks */
+
+h2 {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+details {
+    background: var(--cream);
+    border-radius: 12px;
+    padding: 0.75em 1em;
+    margin: 0.75em 0;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* form */
+
+form {
+    display: grid;
+    gap: 1.25em;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* mobiel: 2 kolommen */
+    gap: 0.75em;
+}
+
+legend {
+    font-weight: 700;
+    margin-bottom: 0.75em;
+}
+
+/* desktop 3 kolommen */
+@media (min-width: 90em) {
+    fieldset {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+fieldset label {
+    background: var(--cream);
+    border-radius: 1em;
+    padding: 0.75em;
+    display: grid;
+    gap: 0.35em;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: relative;
+}
+
+fieldset input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+fieldset label:has(input:checked) {
+    border-color: var(--donkerrood);
+    outline: 6px solid color-mix(in srgb, var(--checked) 15%, transparent);
+}
+
+fieldset label img {
+    width: 2em;
+    height: auto;
+    display: block;
+}
+
+
+
+main aside p {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
+    font-weight: 900;
+    letter-spacing: .1em;
+    font-size: clamp(2rem, 4vw, 4rem);
+    color: #e33;
+    margin: 0;
+}
+
+main>aside img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 30em;
+}
