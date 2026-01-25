@@ -178,19 +178,26 @@ Ik heb niet met een groepje gezeten
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screen1.png" width="375px" alt="uitomst opdracht 1">
+  
+  <img src="readme-images/Screen2.png" width="375px" alt="uitomst opdracht 1">
+  
+  <img src="readme-images/Screen3.png" width="375px" alt="uitomst opdracht 1">
+  
+  <img src="readme-images/Screen4.png" width="375px" alt="uitomst opdracht 1">
+  
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik vond de 2e pagina echt heel snel gaan. Ik begreep hoe form, en details werkte. Ik ben daarom ook blij dat ik dit nog op tijd af heb kunnen krijgen. Ik had verwacht dat dat teveel in een korte tijd zou zijn. Ik vind het leuk om te zien dat zoiets simpels zoals details, en den met de vormgeving, al weer wat leuks toevoegd aan de site. Ook ben ik stiekem trots op de easter-eggs. Dat vond ik zooooo leuk om te doen en een beetje mee te klieren.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Screen2.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Ik baal dat ik de kleuren niet goed voor elkaar heb gekregen met de dark/light modes. Ik kan niet achterhalen wat hier de oorzaak van is en waarom de kleuren niet meer helemaal kloppen. Daar baal ik wel echt van. Aangezien ik dit niet eerder had kunnen bespreken bij eerdere voortgangen, is dit jammer, maar ben al trots op het resultaat. Ook vond ik het balen dat ik heeeeeeeeel veel tijd kwijt was aan sectie 2 en 3 op pagina 1. Na het laatste gesprek ws het gelijk duidelijk en klikte het wel. Maar toen moest ik het toepassen, en oh, wat heb ik geweten dat dat niet zo 1,2,3 gedaan was.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Screen1.png" width="375px" alt="bummer">
 </details>
 
 
