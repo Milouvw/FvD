@@ -111,27 +111,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Mijn grootste vooruitgang in week 1 was de menubalk. Dit leek voor mij eerst onmogelijk, maar na de eerste week waarin we met de hele klas menubalken met nav gingen maken vond ik het ook heel interessant. Het klonk best logisch, van 3 strepen 1 onzichtbaar maken, en de andere 2 draaien naar een kruis. Ik wist niet dat hoe code lijkt, het soms ook zo vertaald is in de code. Hier begon ik het vak ook leuker te vinden, nadat ik bij de lessen kon zijn en het echt begreep.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  ik heb geen meeting gehad aangezien ik in een ander ritme heb gewerkt.
 </details>
 
 
@@ -144,26 +128,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Met de tweede voortgang was ik nieg veel verder dan met de eerste voortgang. dit eigenlijk omdat ik heel lang bezig ben geweest met sectie 1,2 3n 3 van de eerste pagina. Costa houdt zelf geen rekening met een heel klein of middelatig scherm. Hierdoor werd het plaatje gelijk aan het begin verschoven weergegeven, ik wilde dat anders maken. Uiteinelijk was dat mij gelukt, en als ik het nu nog een keer moet doen lukt het sneller, maar ik had veel moeite met code.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  ik heb geen meeting gehad
 
 </details>
 
@@ -191,26 +160,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat ik bij het 1na laatste gesprek heel openbarend vond was het grid systeem voor de hoofdpagina van mijn website. Daar liep ik echt al heel lang mee te strugglen. Ik denk dat ik uit mij zelf alles wel heb kunnen proberen, maar dat ik dit net moest weten. Dus het jammere was de tijd die zat in de 1e en 2e sectie, ik die ook in de 2e pagina had kunnen steken. Ook vond ik het lastig alles om te zetten van div's naar iets anders. Maar ik was helemaal vergeten dat articles bestaan haha. Dus hierna heb ik dat gelijk aangepast. Wel was ik trots op de halve circkel die dan meebeweegt naar groot scherm. Ik heb lang nagedacht over hoe dat precies kon, maar met de 0/100% regels lukte het eiegnlijk gelijk. de plaatsing vond ik moeilijk, maar uiteindelijk ging dat wel goed!
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Ik heb niet met een groepje gezeten
 
 </details>
 
@@ -228,13 +182,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik vond de 2e pagina echt heel snel gaan. Ik begreep hoe form, en details werkte. Ik ben daarom ook blij dat ik dit nog op tijd af heb kunnen krijgen. Ik had verwacht dat dat teveel in een korte tijd zou zijn. Ik vind het leuk om te zien dat zoiets simpels zoals details, en den met de vormgeving, al weer wat leuks toevoegd aan de site. Ook ben ik stiekem trots op de easter-eggs. Dat vond ik zooooo leuk om te doen en een beetje mee te klieren.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik baal dat ik de kleuren niet goed voor elkaar heb gekregen met de dark/light modes. Ik kan niet achterhalen wat hier de oorzaak van is en waarom de kleuren niet meer helemaal kloppen. Daar baal ik wel echt van. Aangezien ik dit niet eerder had kunnen bespreken bij eerdere voortgangen, is dit jammer, maar ben al trots op het resultaat. Ook vond ik het balen dat ik heeeeeeeeel veel tijd kwijt was aan sectie 2 en 3 op pagina 1. Na het laatste gesprek ws het gelijk duidelijk en klikte het wel. Maar toen moest ik het toepassen, en oh, wat heb ik geweten dat dat niet zo 1,2,3 gedaan was.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -248,12 +202,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
-
+ 1. Mdn website. Alles betreft elementen, details, figure, maar ook de simpele dingen die weer even herhaald moesten worden zoals articles.
+ 2. W3Scools. Voor alles waar ik meer over wilde lezen als ik het niet helemaal begreep. Of simpele voorbeelden van kleuren en divs aanspreken met grid.
+ 3. chatgpt: extra, alleen om code te begrijpen. Dus vragen, "leg me uit hoe een article werkt en wanneer en hoe je het gebruikt". Dit hielp meer om dingen te begrijpen die ik niet eerder heb gebruikt, zoals "details".
 </details>
